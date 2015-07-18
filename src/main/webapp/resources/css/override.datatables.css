@@ -1,0 +1,47 @@
+/*
+ * RMS Overrides for datatables CSS
+ */
+
+/* Hack for DataTables fixed column scroll in Firefox */
+.DTFC_LeftBodyLiner	{
+	overflow-x: hidden !important;
+}
+
+/* Override table padding */
+table.dataTable tbody td {
+  padding: 5px 20px !important;
+  vertical-align: middle !important;
+}
+
+.group	{
+	background-color: #E1E4E6 !important;
+    border-bottom: 2px solid #C4BEC1 !important;
+    border-top: 2px solid #C4BEC1 !important;
+    font-weight: bold;
+}
+
+.group-highlighted	{
+	background-color: #A19B9E !important;
+    border-bottom: 2px solid #A19B9E !important;
+    border-top: 2px solid #A19B9E !important;
+    font-weight: bold;
+}
+
+.subgroup{
+    background-color: #D4DFD8 !important;
+    border-bottom: 2px solid #A19B9E !important;
+    border-top: 2px solid #A19B9E !important;
+    font-weight: bold;
+}
+
+.expanded-group{
+	background: url("../images/minus.jpg") no-repeat scroll left center transparent;
+	padding-left: 15px !important;
+	cursor: pointer; cursor: hand;
+}
+
+.collapsed-group{
+	background: url("../images/plus.jpg") no-repeat scroll left center transparent;
+	padding-left: 15px !important;
+	cursor: pointer; cursor: hand;
+}

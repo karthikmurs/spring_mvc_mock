@@ -1,0 +1,39 @@
+span.pagebanner {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	display: block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 100%;
+	display: block;
+	border-top: none;
+	margin-bottom: 15px;
+}
+
+th.sortable a {
+  background-image: url(../images/arrow_off.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  padding-right: 15px;
+}
+
+th.order1 a {
+  background-image: url(../images/arrow_down.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  padding-right: 15px;
+}
+
+th.order2 a {
+  background-image: url(../images/arrow_up.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  padding-right: 15px;
+}

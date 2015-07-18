@@ -1,0 +1,47 @@
+/*
+ * RMS Overrides for slickgrid CSS
+ */
+
+/* to fix bootstrap incompatability with slickgrid */
+.slickgrid, 
+.slickgrid *,
+.slick-header-column {
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+.columnFilterBox {
+	width: 100%;
+}
+   
+.slick-cell.copied {
+	background: blue;
+	background: rgba(0, 0, 255, 0.2);
+	-webkit-transition: 0.5s background;
+}
+   
+.slick-cell.invalid {
+	background-color: red;
+	-moz-animation-duration: 0.2s;
+	-webkit-animation-duration: 0.2s;
+	-moz-animation-name: slickgrid-invalid-hilite;
+	-webkit-animation-name: slickgrid-invalid-hilite;  
+}
+
+.slick-cell.custom-selected {
+	border-color: blue;
+}
+
+.slick-cell	{
+	background-color: #ffffff;
+}
+
+.slick-cell.readonly	{
+	background-color: #eeeeee;
+}
+
+.slick-cell-selected {
+	background-color: rgba(255, 242, 0, 0.6);
+}

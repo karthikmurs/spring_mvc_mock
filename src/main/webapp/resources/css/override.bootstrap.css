@@ -1,0 +1,165 @@
+/*
+ * RMS Overrides for bootstrap CSS
+ */
+
+/* fix rounded corners bug on leftmost button in button groups */
+/*.btn-group > .btn:first-child:not(:last-child):not([display=none]),
+
+.btn-group > .btn:first-of-type:not(:last-child):not([display=none]) {
+
+border-top-right-radius: 0 !important;
+
+border-bottom-right-radius: 0 !important;
+
+}
+
+.btn-group > .btn:last-child:not(:first-child):not([display=none]),
+
+.btn-group > .btn:last-of-type:not(:first-child):not([display=none]) {
+
+border-bottom-left-radius: 0 !important;
+
+border-top-left-radius: 0 !important;
+
+}*/
+
+
+/* Override page header margin */
+.page-header {
+  margin: 17px 0 17px !important;
+}
+
+/* Override table padding */
+.table > tfoot > tr > td {
+  padding: 5px !important;
+  vertical-align: middle !important;
+}
+
+/* dont display circle with slash through it for disabled or readonly form control elements */
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+  cursor: default; !important
+}
+
+/* Bootstrap popover title should be bold */
+.popover-title {
+	font-weight:bold;
+}
+
+/* Bootstrap modal title should be bold */
+.modal-title {
+	font-weight:bold;
+}
+
+/* Bootstrap panel title should be bold */
+.panel-heading {
+	font-weight:bold;
+}
+
+/* Bootstrap panel title should be bold */
+.panel-title {
+	font-weight:bold;
+}
+
+/* hovering over active buttons should display a lighter color to signal that the button will leave an enabled state */
+.btn-group[data-toggle="buttons"] .btn-primary.active:hover	{
+	background-color: rgba(92, 184, 92, 0.7) !important;
+}
+
+/* pressing a toggle button to make it active should display a different color to signal that the button has entered an enabled state */
+.btn-group[data-toggle="buttons"] .btn-primary:active, .btn-group[data-toggle="buttons"] .btn-primary.active	{
+	background-color: rgba(92, 184, 92, 1.0) !important;
+}
+
+.btn-gray {
+  color: #000000;
+  background-color: #d8d8d8;
+  border-color: #607d86;
+}
+.btn-gray:hover,
+.btn-gray:focus,
+.btn-gray:active,
+.btn-gray.active,
+.open > .dropdown-toggle.btn-gray {
+  color: #000000;
+  background-color: #bfbfbf;
+  border-color: 505050;
+}
+.btn-gray:active,
+.btn-gray.active,
+.open > .dropdown-toggle.btn-gray {
+  background-image: none;
+}
+.btn-gray.disabled,
+.btn-gray[disabled],
+fieldset[disabled] .btn-gray,
+.btn-gray.disabled:hover,
+.btn-gray[disabled]:hover,
+fieldset[disabled] .btn-gray:hover,
+.btn-gray.disabled:focus,
+.btn-gray[disabled]:focus,
+fieldset[disabled] .btn-gray:focus,
+.btn-gray.disabled:active,
+.btn-gray[disabled]:active,
+fieldset[disabled] .btn-gray:active,
+.btn-gray.disabled.active,
+.btn-gray[disabled].active,
+fieldset[disabled] .btn-gray.active {
+  background-color: #d8d8d8;
+  border-color: #607d86;
+}
+.btn-gray .badge {
+  color: #d8d8d8;
+  background-color: #000000;
+}
+
+/* Make navbar inverse lighter */
+.navbar-inverse .navbar-nav > li > a {
+	color: #A0A0A0 ;
+}
+
+.navbar-inverse .navbar-text {
+	color: #A0A0A0 ;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #A0A0A0;
+}
+
+/* Fix for broken calendar icon */
+.glyphicon-calendar:before {
+  content: "\e012";
+}
+
+/* Adding support for more styling options for badge component*/
+.badge-error {
+  background-color: #b94a48;
+}
+.badge-error:hover {
+  background-color: #953b39;
+}
+.badge-warning {
+  background-color: #f89406;
+}
+.badge-warning:hover {
+  background-color: #c67605;
+}
+.badge-success {
+  background-color: #468847;
+}
+.badge-success:hover {
+  background-color: #356635;
+}
+.badge-info {
+  background-color: #3a87ad;
+}
+.badge-info:hover {
+  background-color: #2d6987;
+}
+.badge-inverse {
+  background-color: #333333;
+}
+.badge-inverse:hover {
+  background-color: #1a1a1a;
+}

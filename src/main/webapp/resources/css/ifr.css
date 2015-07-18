@@ -1,0 +1,157 @@
+.cc-ifr {
+	vertical-align: middle;
+	display: none;
+}
+
+.cc-ifr > a:hover {
+	text-decoration: none;
+}
+
+.cc-pause {
+	background-image: url("/RMSv2/resources/images/cc_widget_pause.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.cc-resume {
+	background-image: url("/RMSv2/resources/images/cc_widget_resume.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.cc-abort {
+	background-image: url("/RMSv2/resources/images/cc_widget_stop.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.cc-restart{
+	background-image: url("/RMSv2/resources/images/cc_widget_restart.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.cc-pause-disabled {
+	background-image: url("/RMSv2/resources/images/cc_widget_pause_disabled.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.cc-resume-disabled {
+	background-image: url("/RMSv2/resources/images/cc_widget_resume_disabled.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.cc-abort-disabled {
+	background-image: url("/RMSv2/resources/images/cc_widget_stop_disabled.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.cc-restart-disabled {
+	background-image: url("/RMSv2/resources/images/cc_widget_restart_disabled.png");
+	border: medium none;
+    height: 25px;
+    width: 25px;
+    margin-right: 2px;
+}
+
+.ifr-cc_modal .modal-footer {
+  text-align: center;
+}
+
+.ifr-cc_modal .modal-dialog {
+    width: 500px;
+}
+.ci-statsTimelapse .modal-dialog {
+    margin: 30px auto;
+    width: 1000px;
+}
+.ci-statsTimelapse .progress{
+	max-width: 300px;
+}
+.ci-statsTimelapse .list-group {
+    max-width: 300px;
+}
+.ci-statsTimelapse .timeLapse-gfx {
+   	max-width: 350px;
+}
+.ci-statsTimelapse .panel .table {
+   	margin-bottom: 0px;
+   }
+
+.ci-statsTimelapse .table .panel {
+   	margin-bottom: unset;
+   }
+
+.ci-statsTimelapse .overview .table > tbody > tr > td {
+   	padding: unset;
+   }
+
+.ci-statsTimelapse .table > tbody > tr > th {
+   	background-color: #99BAD1 !important;
+   }
+
+.ci-statsTimelapse .well {
+	border-radius: 15px;
+   }
+
+.ci-statsTimelapse .table {
+	border-radius: 4px;
+   }
+
+.ci-statsTimelapse .overview .panel {
+   	margin-bottom: unset;
+   }
+
+.ci-statsTimelapse .overview .panel .panel-body {
+   	padding: unset;
+   	padding-left: 15px;
+   	padding-right: 15px;
+   	padding-top: 15px;
+   }
+   
+   h3 small,.h3 small,h3 .small,.h3 .small {
+	font-size: 75%;
+ 	}
+ 	
+ 	.ci-statsTimelapse .well .panel{
+ 		background-color: unset;
+ 		border: unset;
+ 		box-shadow: unset;
+ 	}
+ 	.ci-statsTimelapse .progress-bar{
+ 		background-color: #D6D6D6;
+ 	}
+ 	.ci-statsTimelapse .progress-bar-success {
+	background-color: #5cb85c;
+}
+.ci-statsTimelapse .table > tbody > tr > td {
+	border-top: unset;
+}
+
+.btn.disabled {
+    opacity: 0.3;
+}
+.popover-content {
+	word-wrap: break-word;
+}
+
+.popover {
+	max-width: 700px;
+}
